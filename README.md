@@ -16,7 +16,6 @@ $ docker build -t npm-for-lambda .
 For instance, the way to get `iconv` module is like:
 
 ```
-$ cd /tmp
 $ docker run -it --rm -v /tmp:/root npm-for-lambda install iconv
 
 > iconv@2.3.0 install /root/node_modules/iconv
